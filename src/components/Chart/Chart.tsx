@@ -10,7 +10,7 @@ import Image from "next/image"
 export default function Chart() {
   return (
     <>
-        <div className="bg-custom-blue min-h-full ">
+        <div className="bg-custom-blue ">
 
         </div>
 

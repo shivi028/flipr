@@ -29,6 +29,7 @@ export default function Footer() {
 
   return (
     <>
+    <div className='w-full overflow-hidden'>
     <Toaster/>
     <div className=''>
      <footer className="bg-gray-100 py-10">
@@ -106,6 +107,7 @@ export default function Footer() {
         
       </div>
     </footer>
+    </div>
     </div>
     </>
   )

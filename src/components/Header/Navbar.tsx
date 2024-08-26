@@ -1,6 +1,6 @@
 'use client'
 import Link from 'next/link';
-import logo from "../../../public/images/4.svg"
+import logo from "../../../public/images/frontPageHeading.svg"
 import Image from 'next/image';
 import { usePathname, useRouter } from 'next/navigation';
 import axios from 'axios';
@@ -25,9 +25,9 @@ export default function Navbar() {
 
   return (
     <>
-    <div>
+    <div className='w-full overflow-hidden'>
     <nav className="flex justify-between items-center py-6 px-56 bg-white">
-      <div className="text-4xl font-bold text-custom-green t">
+      <div className="text-4xl font-bold text-custom-green ">
         <Link href="/">
         <Image src={logo} alt='logo' width={180}></Image>
         </Link>
